@@ -1,0 +1,23 @@
+  ul {
+      margin-top: 50px;
+      color: rgb(228, 25, 25);
+      font-size: 20px;
+  }
+
+  .list {
+      margin-top: 50px;
+      color: rgb(215, 220, 174);
+      font-size: 40px;
+  }
+
+  .parag {
+      margin-top: 50px;
+      color: green;
+      font-size: 40px;
+  }
+  .footer {
+    margin-top: 50px;
+    color: black;
+    font-size: 40px;
+    font-style: italic;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <style>
+        .page-header {
+            background-color: yellow;
+        }
+
+        #myid {
+            font-size: 15px;
+        }
+
+        [data-description] {
+            font-size: 15px;
+            background-color: whitesmoke;
+        }
+
+        [href] {
+            font-size: 15px;
+        }
+
+        [href][target] {
+            color: lightgreen;
+        }
+
+        [data-description="testing"] {
+            background-color: bisque;
+        }
+
+        [type="text"] {
+            background-color: yellow;
+        }
+
+        [type="password"] {
+            background-color: blue;
+        }
+
+        [type="checkbox"] {
+            background-color: green;
+        }
+        [class="page-header"]{
+            font-style: italic;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 class="page-header">Header1</h1>
+        <h2 class="page-header">Header2</h2>
+        <h3 class="page-header">Header3</h3>
+    </header>
+    <main>
+        <section>
+            <h2 class="page-header">Subheader of section</h2>
+        </section>
+        <article>
+            <h3 id="myid">Article1</h3>
+            <p data-description="testing">Please click <a href="https://www.w3schools.com" target="_blank">this link</a>
+                or
+                <a href="https://www.w3schools.com">this link </a>
+            </p>
+            <p>
+                <input type="text">
+                <input type="checkbox">
+                <input type="password">
+            </p>
+    </main>
+
+    </article>
+    <Footer>
+        <b>Footer</b>
+    </Footer>
+</body>
+
+</html>
